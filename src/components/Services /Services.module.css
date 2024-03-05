@@ -1,0 +1,37 @@
+.services_con {
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+
+  & .services_title {
+    font-size: 2rem;
+    margin-top: 60px;
+    font-weight: bold;
+  }
+
+  & .services_list {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+
+
+    & .services_items {
+        width: 300px;
+        margin: 0 50px;
+
+        & svg {
+            width: 80px;
+            height: 80px;
+            color: #8d38c9;
+        }
+
+        & h4 {
+            color: #8d38c9;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 25px 0;
+        }
+    }
+  }
+}
